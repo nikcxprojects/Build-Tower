@@ -8,19 +8,19 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Quan
-  productName: 'LIGA BLOCKS: SKYSCRAPERS'
+  productName: Liga
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 1
+  m_SplashScreenAnimation: 0
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 1
@@ -51,7 +51,7 @@ PlayerSettings:
   m_MTRendering: 1
   mipStripping: 0
   numberOfMipsStripped: 0
-  m_StackTraceTypes: 010000000100000001000000010000000100000001000000
+  m_StackTraceTypes: 000000000000000000000000000000000000000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   iosUseCustomAppBackgroundBehavior: 0
@@ -68,12 +68,6 @@ PlayerSettings:
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 1
   androidBlitType: 0
-  androidResizableWindow: 0
-  androidDefaultWindowWidth: 1920
-  androidDefaultWindowHeight: 1080
-  androidMinimumWindowWidth: 400
-  androidMinimumWindowHeight: 300
-  androidFullscreenMode: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 1
@@ -127,7 +121,6 @@ PlayerSettings:
   vulkanEnableSetSRGBWrite: 0
   vulkanEnablePreTransform: 0
   vulkanEnableLateAcquireNextImage: 0
-  vulkanEnableCommandBufferRecycling: 1
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -150,7 +143,6 @@ PlayerSettings:
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
-  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
@@ -161,8 +153,8 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
-  AndroidTargetSdkVersion: 33
+  AndroidMinSdkVersion: 23
+  AndroidTargetSdkVersion: 31
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -236,15 +228,14 @@ PlayerSettings:
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@6.0.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
+  useCustomGradlePropertiesTemplate: 1
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 15
-  AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: user.keystore'
@@ -255,13 +246,12 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 1
+  androidUseCustomKeystore: 0
   m_AndroidBanners:
   - width: 320
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  chromeosInputEmulation: 1
   AndroidMinifyWithR8: 0
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
@@ -311,62 +301,62 @@ PlayerSettings:
     - m_Textures: []
       m_Width: 192
       m_Height: 192
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
-      m_Kind: 0
+      m_Kind: 1
       m_SubKind: 
     - m_Textures: []
       m_Width: 192
       m_Height: 192
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
-      m_Kind: 1
+      m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -455,7 +445,6 @@ PlayerSettings:
   cameraUsageDescription: 
   locationUsageDescription: 
   microphoneUsageDescription: 
-  bluetoothUsageDescription: 
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -594,9 +583,7 @@ PlayerSettings:
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
   switchUseMicroSleepForYield: 1
-  switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
-  switchRamDiskSpaceSize: 12
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
@@ -739,7 +726,6 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
-  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 

@@ -16,9 +16,9 @@
 		  </intent-filter>
 		  <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
 	  </activity>
-	  <meta-data android:name="ymp_firebase_default_app_id" android:value="1:768619707693:android:552640cdc9a1d4f83167a4" />
-	  <meta-data android:name="ymp_gcm_default_sender_id" android:value="number:768619707693" />
-	  <meta-data android:name="ymp_firebase_default_api_key" android:value="AIzaSyBl7OMznt6fNBBFFDBWOKK3RXJDydFxTfs" />
-	  <meta-data android:name="ymp_firebase_default_project_id" android:value="comtotalwildgame" />
+	  <meta-data android:name="ymp_firebase_default_app_id" android:value="1:587841699120:android:39ee54b85d44c1ab22dcf5" />
+	  <meta-data android:name="ymp_gcm_default_sender_id" android:value="number:587841699120" />
+	  <meta-data android:name="ymp_firebase_default_api_key" android:value="AIzaSyBUZqGKNBOKbbHEqPg2wHkmDgrqekSZIgQ" />
+	  <meta-data android:name="ymp_firebase_default_project_id" android:value="comligablocksskyscapersgame" />
   </application>
 </manifest>

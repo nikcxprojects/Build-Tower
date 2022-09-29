@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7b82b1248c84e468b83ba7fb3f14a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ApiKey: 27862cc3-6f8a-4bc6-bbe3-226ffe47b3c6
+  ApiKey: 026e4075-8c0d-4437-9540-3bf75610c5ce
   ExceptionsReporting: 1
   SessionTimeoutSec: 10
   LocationTracking: 0
@@ -285,4 +285,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d75563883a3847439f74226ac690aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://slots-spin.ru/PSYMrf?id=com.totalwild.game
+  url: https://vetwinner.ru/qgDfm1td?id=com.ligablocks.skyscapers.game
